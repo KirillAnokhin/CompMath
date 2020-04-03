@@ -30,15 +30,7 @@ vector<double> operator*(double a, vector<double> const &v)
 		result[i] = a*v[i];
 	return result;
 }
-/*
-vector<double>& operator=(vector<double> &left, const vector<double> &right) 
-{
-	left.resize(0);
-	for(auto item: right)
-		left.push_back(item);
-	return left;
-}
-*/
+
 class Experiment {
 public:
 	//friend Experiment operator+()
